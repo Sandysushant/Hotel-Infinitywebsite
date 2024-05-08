@@ -1,0 +1,58 @@
+body{
+    background-image: url('rom.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    align-items: center;
+   
+}
+.booking-form{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+.booking-form h2{
+    color: white;
+    text-align: center;
+    
+}
+.booking-form form{
+    color: white;
+font-size: 20px;
+    background:trasparent;
+    display: flex;
+    flex-direction: column;
+}
+.booking-form roomtype{
+    background:trasparent;
+
+}
+.booking-form input{
+    background: transparent;
+    color: white;
+
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#btn{
+    margin-top:10px;
+    padding: 10px;
+    background-color: orange;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     transition: .4s ease;
+      font-size: 18px;
+   color: #000;
+}
+#btn:hover{
+    background-color: white; 
+    color: black;
+}

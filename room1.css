@@ -1,0 +1,58 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+  
+    flex-direction: column;
+
+}
+
+.service {
+    display: flex;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.service img {
+    max-width: 350px;
+    height: 250px;
+    margin-right: 30px;
+    border-radius: 10px;
+   
+}
+.service img:hover{
+     transform: scale(1.1);
+transition: 0.3s ease;
+ }
+
+
+
+
+
+
+.description h2 {
+    font-size: 24px;
+    margin-top: 0;
+    color:#459DD5;
+ 
+}
+
+.description p {
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: #2C2929;
+   
+}
+
+h1{
+    text-align: center;
+     padding: 90px;
+
+}
